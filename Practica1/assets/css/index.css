@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* NAVEGACION */
+.nav{
+background-color: #D07085AF;
+width: 100%;
+height: 3.3rem;
+position: fixed;
+z-index: 1000;
+}
+
+.nav_container{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.3rem;
+}
+
+.nav_logo{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.nav_menu{
+    width: 48.18rem;
+    height: 1.87rem;
+    justify-content: space-around;
+    display:flex ;
+}
+.nav_item{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+.nav_item:hover{
+    text-decoration: underline;
+    color: #ffffffa2;
+}
